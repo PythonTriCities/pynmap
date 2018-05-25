@@ -2,8 +2,8 @@
 
 import nmap
 
-scan_range = '172.16.30.1/24'
-scan_ports = '20-443'
+scan_range = '172.16.1.1/24'
+scan_ports = '22,53,80,443'
 
 nm = nmap.PortScanner()
 
